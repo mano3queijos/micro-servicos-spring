@@ -42,3 +42,7 @@ A arquitetura monolítica e a arquitetura de microserviços são duas abordagens
 >* É possível isolar os itens críticos em uma infraestrutura separada para escalar de forma independente do restante do sistema.
 
 >* No entanto, os microserviços podem ser mais complexos e difíceis de gerenciar.
+
+
+
+#### cada serviço deve rodar em seu proprio processo, container, servidor. Micro serviço é o que pdemos desenvolver usando pequenos serviços
