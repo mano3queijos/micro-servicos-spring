@@ -1,4 +1,5 @@
 # Micro Serviços
+https://www.youtube.com/playlist?list=PL3NrzZBjk6m_n8QZCdnF7Yax36cqWkO9j
 
 ## Arquitetura Monolitica X MicroServiços
 
@@ -7,6 +8,8 @@ A arquitetura monolítica e a arquitetura de microserviços são duas abordagens
 ### Arquitetura Monolítica:
 
 >* É um sistema único, onde todas as funções estão em um único pacote a ser distribuído ao cliente.
+
+>* Qualquer mudança no codigo faz você ter que testar a aplicação inteira 
   
 >* A estruturação é simplificada, pois é um projeto único.
 
