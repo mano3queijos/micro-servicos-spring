@@ -45,4 +45,7 @@ A arquitetura monolítica e a arquitetura de microserviços são duas abordagens
 
 
 
-#### cada serviço deve rodar em seu proprio processo, container, servidor. Micro serviço é o que pdemos desenvolver usando pequenos serviços
+#### cada serviço deve rodar em seu proprio processo/ container/ servidor. Micro serviço é o que pdemos desenvolver usando pequenos serviços
+
+
+
