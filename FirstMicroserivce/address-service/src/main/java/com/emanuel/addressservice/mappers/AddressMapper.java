@@ -5,10 +5,8 @@ import com.emanuel.addressservice.entities.Address;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")
-public class AddressMapper {
-
+public interface AddressMapper {
 
     AddressDTO toAddressDto(Address address);
-
 
 }

@@ -5,34 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67371b03-03ca-4636-b15d-ba97b163c1e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/micro-servicos-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/FirstMicroserivce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/employeeservice/EmployeeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/test/java/com/emanuel/employeeapp/employeeservice/EmployeeServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/AddressServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-service/src/test/java/com/emanuel/addressservice/AddressServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/test/java/com/example/discoveryservice/DiscoveryServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/controllers/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/controllers/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/dtos/AddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/dtos/AddressDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/entities/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/entities/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/exceptions/AppException.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/exceptions/AppException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/mappers/AddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/mappers/AddressMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/repositories/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/repositories/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/services/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/services/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/EmployeeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/controllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/controllers/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/dtos/AddressDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/dtos/AddressDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/dtos/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/dtos/EmployeeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/exception/AppException.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/exception/AppException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/feignclient/AddressClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/feignclient/AddressClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/test/java/com/emanuel/employeeapp/EmployeeServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/test/java/com/emanuel/employeeapp/EmployeeServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -42,6 +69,9 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -66,26 +96,72 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/emanu/av poo 2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="EmployeeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\emanu\micro-servicos-spring\FirstMicroserivce\address-service\src\main\java\com\emanuel\addressservice" />
+      <recent name="C:\Users\emanu\micro-servicos-spring\FirstMicroserivce\employee-service\src" />
+      <recent name="C:\Users\emanu\micro-servicos-spring\FirstMicroserivce" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AddressServiceApplication">
+    <configuration name="AddressServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="employee-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emanuel.employeeapp.employeeservice.EmployeeServiceApplication" />
+      <module name="address-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emanuel.addressservice.AddressServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emanuel.addressservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="employee-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emanuel.employeeapp.EmployeeServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emanuel.employeeapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AddressServiceApplication" />
+        <item itemvalue="Spring Boot.EmployeeServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,6 +173,15 @@
       <updated>1700413880582</updated>
       <workItem from="1700413881651" duration="921000" />
       <workItem from="1700414817518" duration="1134000" />
+      <workItem from="1700510927281" duration="8299000" />
+      <workItem from="1700599717347" duration="4047000" />
+      <workItem from="1700604721992" duration="15000" />
+      <workItem from="1700604749599" duration="9515000" />
+      <workItem from="1700618041455" duration="9000" />
+      <workItem from="1700665446706" duration="13675000" />
+      <workItem from="1700689971668" duration="1237000" />
+      <workItem from="1700691300184" duration="1340000" />
+      <workItem from="1700692665368" duration="821000" />
     </task>
     <servers />
   </component>
@@ -116,5 +201,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

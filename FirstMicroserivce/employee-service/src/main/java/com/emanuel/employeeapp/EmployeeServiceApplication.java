@@ -1,8 +1,10 @@
-package com.emanuel.employeeapp.employeeservice;
+package com.emanuel.employeeapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
+@EnableFeignClients
 @SpringBootApplication
 public class EmployeeServiceApplication {
 
