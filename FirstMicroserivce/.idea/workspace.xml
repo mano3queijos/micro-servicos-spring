@@ -13,13 +13,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/AddressServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/AddressServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/dtos/AddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/dtos/AddressDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/services/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/java/com/emanuel/addressservice/services/AddressService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/address-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/address-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/EmployeeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/feignclient/AddressClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/feignclient/AddressClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/dtos/AddressDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/dtos/AddressDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/exception/AppException.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/dtos/exception/AppException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/feignclient/AddressClient.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/service/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" beforeDir="false" />
     </list>
@@ -76,7 +80,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/emanu/av poo 2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/emanu/micro-servi-o-employee-test&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -103,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AddressServiceApplication">
     <configuration name="AddressServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="address-service" />
@@ -139,10 +143,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
+      <item itemvalue="Spring Boot.AddressServiceApplication" />
+      <item itemvalue="Spring Boot.EmployeeServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EmployeeServiceApplication" />
         <item itemvalue="Spring Boot.AddressServiceApplication" />
+        <item itemvalue="Spring Boot.EmployeeServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +175,13 @@
       <workItem from="1700691300184" duration="1340000" />
       <workItem from="1700692665368" duration="821000" />
       <workItem from="1700720944092" duration="6715000" />
+      <workItem from="1700780764640" duration="1209000" />
+      <workItem from="1700850731795" duration="599000" />
+      <workItem from="1701204964641" duration="5897000" />
+      <workItem from="1701225348044" duration="2257000" />
+      <workItem from="1701263241443" duration="4543000" />
+      <workItem from="1701278733127" duration="1938000" />
+      <workItem from="1701283036223" duration="591000" />
     </task>
     <servers />
   </component>
@@ -185,6 +201,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/employee-service/src/main/java/com/emanuel/employeeapp/entity/Employee.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

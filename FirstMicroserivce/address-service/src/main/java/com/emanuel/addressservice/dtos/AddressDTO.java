@@ -3,9 +3,12 @@ package com.emanuel.addressservice.dtos;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-@AllArgsConstructor
-@NoArgsConstructor
+import lombok.RequiredArgsConstructor;
+
 @Data
+@AllArgsConstructor
+@RequiredArgsConstructor
+
 public class AddressDTO {
 
     private Long id;

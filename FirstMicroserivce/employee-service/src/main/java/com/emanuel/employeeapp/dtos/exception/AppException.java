@@ -1,4 +1,4 @@
-package com.emanuel.employeeapp.exception;
+package com.emanuel.employeeapp.dtos.exception;
 
 import org.springframework.http.HttpStatus;
 

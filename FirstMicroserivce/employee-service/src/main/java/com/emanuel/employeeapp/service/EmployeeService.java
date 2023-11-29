@@ -3,7 +3,7 @@ package com.emanuel.employeeapp.service;
 import com.emanuel.employeeapp.dtos.AddressDto;
 import com.emanuel.employeeapp.dtos.EmployeeDto;
 import com.emanuel.employeeapp.entity.Employee;
-import com.emanuel.employeeapp.exception.AppException;
+import com.emanuel.employeeapp.dtos.exception.AppException;
 import com.emanuel.employeeapp.mapper.EmployeeMapper;
 import com.emanuel.employeeapp.openfaignclients.AddressClient;
 import com.emanuel.employeeapp.repository.EmployeeRepository;
